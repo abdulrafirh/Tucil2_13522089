@@ -26,3 +26,12 @@ class Point :
 
     def __str__(self) -> str:
         return f"({self.x}, {self.y})"
+    
+    def to_tuple(self) :
+        return (self.x, self.y)
+    
+    def to_list(self) :
+        return list(self.to_tuple())
+    
+    def make_line(point1, point2) :
+        return [point1.to_list(), point2.to_list()]
