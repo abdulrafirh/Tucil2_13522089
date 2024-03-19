@@ -1,11 +1,5 @@
 import streamlit as st
-from matplotlib import collections as mc
-import matplotlib.pyplot as plt, mpld3
-from mpld3 import plugins
 import streamlit.components.v1 as components
-
-import time
-
 from bezier_curve import BezierCurve
 from point import Point
 import bokehVisualization as bv

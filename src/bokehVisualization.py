@@ -1,8 +1,6 @@
 from bezier_curve import BezierCurve
-from bokeh.plotting import figure, show
-from bokeh.layouts import column, row
-from bokeh.io import curdoc
-from bokeh.models import ColumnDataSource, CustomJS, Slider
+from bokeh.plotting import figure
+from bokeh.models import ColumnDataSource
 import streamlit as st
 
 class BokehDrawer :
